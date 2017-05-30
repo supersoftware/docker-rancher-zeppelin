@@ -5,7 +5,7 @@ if [ "$1" = 'idle' ]; then
 fi
 
 if [ "$1" = 'start' ]; then
-  bin/zeppelin.sh
+  zeppelin.sh
 fi
 
 exec "$@"
